@@ -1,0 +1,82 @@
+
+Topics:
+
+  empherical units (font-size) default font-size ----> 16px
+    em, rem ---> root em
+      1rem = fontsize of the root element ( Initial Containing Block )
+      1em = fontsize of the parent element
+
+      2rem = 2 * fontsize of the root element ( Initial Containing Block )
+      2em = 2 * fontsize of the parent element
+
+  Flex-Box:
+    display: flex;
+      it takes over the control of the children (width & height)
+
+    direction -> row: children placed in single row
+      justify-content moves content horizontally/along x-axis
+        start/left
+        center
+        end/right
+        space-evenly
+        space-around
+        space-between
+      
+      align-items moves content vertically
+        start
+        center
+        end
+
+      flex-wrap:
+        wrap -> wrappes the children horizontally when a width reduces less than child width
+        nowrap -> shrinks the width of the children to accommodate inside parent
+    
+    direction -> column: children placed in single column
+      justify-content moves content vertically
+        start
+        center
+        end
+        space-evenly
+        space-around
+        space-between
+      
+      align-items moves content horizontally
+        start
+        center
+        end
+
+      flex-wrap:
+        wrap -> wrappes the children horizontally
+        nowrap -> shrinks the height of the children to accommodate inside parent
+    
+    flex-flow: specify both direction and wrapping 
+  
+  Pseudo classes/elements
+    :before, :after --> used to create content before and after inner content
+                        works only for open and closing tags
+    State:
+      hover --> change style on hover
+      ative --> click and hold
+      visited --> a link which is visited
+      focus/focus-visible --> foucs on an element like input cursor focus
+    
+  
+  fonts --> Google font APIs
+    Visit google fonts and search for You required fonts
+    Select and copy  link tag rel
+  
+  icons:
+    font awesome
+    https://cdnjs.com/libraries/font-awesome
+
+  
+
+Next Session:
+  Media Query Intro
+  Media Query Deep Dive
+  RWD
+  Bootstrap
+  Bootstrap Demo
+
+  Tasks Discussion
+  General Ideas to Complete the Task
