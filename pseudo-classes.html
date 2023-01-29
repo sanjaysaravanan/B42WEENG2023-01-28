@@ -11,17 +11,25 @@
       color: blue;
     }
 
-    .div-one:hover {
+    .div-one:hover,
+    div:hover {
       color: red;
+      /* font-size: 100px; */
+      font-family: monospace;
+      cursor: pointer;
     }
 
-    div:active {
+    a:active {
       color: green;
     }
 
-    a:visited {
+    /* a:visited {
       color: red;
-    }
+    } */
+
+    /* a:hover {
+      color: rgba(91, 72, 158, 0.753)
+    } */
 
     .inp {
       border: 0px;
@@ -31,6 +39,7 @@
 
     .inp:focus {
       border-bottom: 2px solid #1b74e4;
+      cursor: grab;
     }
 
     .sample-div {
@@ -51,6 +60,7 @@
 
     .sample-div::after {
       /* content is must property for before & after */
+      /* Input tag before and after will not work */
       content: "";
       height: 10px;
       width: 10px;

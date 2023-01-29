@@ -13,7 +13,7 @@ Topics:
     display: flex;
       it takes over the control of the children (width & height)
 
-    direction -> row: children placed in single row
+    flex-direction -> row: children placed in single row
       justify-content moves content horizontally/along x-axis
         start/left
         center
@@ -31,7 +31,7 @@ Topics:
         wrap -> wrappes the children horizontally when a width reduces less than child width
         nowrap -> shrinks the width of the children to accommodate inside parent
     
-    direction -> column: children placed in single column
+    flex-direction -> column: children placed in single column
       justify-content moves content vertically
         start
         center
